@@ -1,0 +1,3 @@
+2023-09-28 21:59:21 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLDataException: Value too long for column "CONTENT CHARACTER VARYING(255)": "U&'application.properties\\000d\\000aspring.security.user.name = yawintutor\\000d\\0... (368)"; SQL statement:
+insert into note (content,title,id) values (?,?,?) [22001-214]
